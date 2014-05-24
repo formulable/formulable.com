@@ -36,28 +36,39 @@
  
  
 <!-- hero area (the grey one with a slider -->
-    <div class="wrapper">	
-	    <div class="row clearfix well">
-	        <div align="center">
+    <div class="wrapper">
+        <div class="grid_12 alpha">
             <h1>formulable turns a spreadsheet into a web app</h1>
 			</br>
 	        <p>formulable is google drive powered CMS that makes it easy to edit content in a
 	        spreadsheet and visualize it as website. It is the best way to publish structured content for free.</p>
-
-	            <h1><a href="https://docs.google.com/spreadsheet/ccc?key=0AkYWdwxH6K5XdHA0WlNrMU8zMlZ0OVE5UnRoV1lvSmc&amp" target="popup" onclick="window.open('https://docs.google.com/spreadsheet/ccc?key=0AkYWdwxH6K5XdHA0WlNrMU8zMlZ0OVE5UnRoV1lvSmc&amp','data in a spreadsheet spreadsheet','width=800,height=600')">data in a spreadsheet</a></h1>
-	            <h1>+</h1>
-	            <h1><a href="https://drive.google.com/folderview?id=0B0YWdwxH6K5XalVVM3ZpbnBiNTA&usp=sharing" target="popup" onclick="window.open('https://drive.google.com/folderview?id=0B0YWdwxH6K5XalVVM3ZpbnBiNTA&usp=sharing','files in a folder','width=800,height=600')">files in a folder</a></h1>
+	
+	        <ol>
+	            <li>Add a row in the spreadsheet below for a person
+	            you admire</li>
+	
+	            <li>Upload an image to <a href="https://drive.google.com/?authuser=0#folders/0B0YWdwxH6K5XalVVM3ZpbnBiNTA">
+	            this google drive folder</a> and use the person
+	            name as the file name</li>
+	
+	            <li>Wait a couple of minutes and refresh the
+	            page</li>
+	        </ol>
+	    </div><br>
+	
+	    <div class="row clearfix well">
+	        <div class="col-md-3 column">
+	            <h1 style="font-size:48px">turn this</h1>
+				<iframe height="500" src="https://docs.google.com/spreadsheet/ccc?key=0AkYWdwxH6K5XdHA0WlNrMU8zMlZ0OVE5UnRoV1lvSmc&amp;ui=2&amp;rm=demo" width="100%"></iframe>
+	        </div>
+	        <div class="col-md-5 column">
+	            <h1 style="font-size:48px">
+				<a href="https://drive.google.com/folderview?id=0B0YWdwxH6K5XalVVM3ZpbnBiNTA&usp=sharing" target="_blank">and this</a>
 				</h1>
-	            <h1>=</h1>
-	            <h1><a href="https://googledrive.com/host/0B0YWdwxH6K5XdVpaNjhWUl9vZkE/?scriptid=AKfycbx66sZMaqLK8byhV7wY_DoQ8ouqF1acWRcc0JIHyDu5CVWZupAK&id=people" target="popup" onclick="window.open('https://googledrive.com/host/0B0YWdwxH6K5XdVpaNjhWUl9vZkE/?scriptid=AKfycbx66sZMaqLK8byhV7wY_DoQ8ouqF1acWRcc0JIHyDu5CVWZupAK&id=people','web app','width=800,height=600')">web app</a></h1>
-				<h1>try it now!</h1>				
-				<ul>
-					<li>Add a row in the spreadsheet below for a person you admire</li>
-					<li>Upload an image to <a href="https://drive.google.com/?authuser=0#folders/0B0YWdwxH6K5XalVVM3ZpbnBiNTA">
-					this google drive folder</a> and use the person
-					name as the file name</li>
-					<li>Wait a couple of minutes and refresh the page</li>
-				</ul>
+			</div>			
+	        <div class="col-md-10 column">
+	            <h1 style="font-size:48px">into
+	            this</h1><iframe height="500" src="https://googledrive.com/host/0B0YWdwxH6K5XdVpaNjhWUl9vZkE/?scriptid=AKfycbx66sZMaqLK8byhV7wY_DoQ8ouqF1acWRcc0JIHyDu5CVWZupAK&id=people" width="100%"></iframe>
 	        </div>
 	    </div>
             <h1>wanna be a beta tester?</h1><iframe frameborder="0" height="600" marginheight="0" marginwidth="0" src="https://docs.google.com/forms/d/1PA6UdRUBPNgFYR4QRlFHJekaWa_Smwz0JHDcZEopL3U/viewform?embedded=true" width="100%">Loading...</iframe>
